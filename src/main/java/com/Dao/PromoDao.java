@@ -78,5 +78,23 @@ public class PromoDao {
         return listOfStock;
     }
 
+    public void appdisp(Promotion promotion) {
+        try{
+            // start a transaction
+            Session session = SessionUtil.getCurrentSession();
+            session.getTransaction();
+            session.getTransaction().begin();
+            // save the student object
+            session.update(promotion);
+            // commit transaction
+            session.persist(promotion);
+            session.getTransaction().commit();
+            session.close();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            System.out.println("error");
+            e.printStackTrace();
+        }
+    }
 
 }

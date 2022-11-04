@@ -35,12 +35,17 @@ public class Promotion {
     public Promotion(){
 
     }
+    public Promotion(int idPromo,Stock stock,String disponible){
+        this.idPromo=idPromo;
+        this.stock = stock;
+        this.disponible=disponible;
+    }
     public Promotion(int idPromo,int promo,int points,Stock stock,String disponible){
         super();
         this.idPromo=idPromo;
         this.promo=promo;
         this.points=points;
-//        this.stock = stock;
+        this.stock = stock;
         this.disponible=disponible;
 
 
@@ -49,7 +54,7 @@ public class Promotion {
         super();
         this.promo=promo;
         this.points=points;
-//        this.stock = stock;
+        this.stock = stock;
         this.disponible=disponible;
 
     }

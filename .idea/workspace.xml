@@ -10,56 +10,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41eeb0e7-1a84-4d1c-aa15-b7bb0b9a1303" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Marjan_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Marjan_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Dao/AdminDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Dao/AdmincDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Dao/PromoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Dao/SessionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/Addpro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/Addres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/DeletStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/DeleteAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/PromoServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/UpdateAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/UpdateStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/Promotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/Responsable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Adminc.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Responsable.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/addpesp.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/editing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/iconmarjan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login-success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/marjan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/promotion.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/VerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a38f5628-9548-49f2-9b41-40bb5c88bdf9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a38f5628-9548-49f2-9b41-40bb5c88bdf9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/eaf94bc2-1e52-43ab-a319-eb79de03d7d3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/eaf94bc2-1e52-43ab-a319-eb79de03d7d3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Dao/PromoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Dao/PromoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/DeletStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/DeletStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/PromoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/PromoServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/Promotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/Promotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Responsable.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Responsable.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/promotion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/promotion.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,33 +61,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "true",
-    "JPA.DatabaseSchemaImportDialog": "eaf94bc2-1e52-43ab-a319-eb79de03d7d3",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/yc/Desktop/MarjanPromo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Global Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "sql.rename.search.for.storage.occurrences": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;JPA.DatabaseSchemaImportDialog&quot;: &quot;eaf94bc2-1e52-43ab-a319-eb79de03d7d3&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/yc/Desktop/simplone-main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;sql.rename.search.for.storage.occurrences&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\yc\Desktop\Marjan\src\main\webapp" />
@@ -143,7 +107,7 @@
       <recent name="com.Dao" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 10.0.27">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Marjan" />
@@ -228,7 +192,24 @@
       <workItem from="1667044857296" duration="10057000" />
       <workItem from="1667066008831" duration="77290000" />
       <workItem from="1667235102570" duration="7783000" />
-      <workItem from="1667290410323" duration="931000" />
+      <workItem from="1667290410323" duration="9483000" />
+      <workItem from="1667377880351" duration="13632000" />
+      <workItem from="1667417622578" duration="15000" />
+      <workItem from="1667417910904" duration="35000" />
+      <workItem from="1667423101823" duration="56000" />
+      <workItem from="1667423220056" duration="525000" />
+      <workItem from="1667426573932" duration="45000" />
+      <workItem from="1667426931982" duration="78000" />
+      <workItem from="1667427465968" duration="38000" />
+      <workItem from="1667427552347" duration="17000" />
+      <workItem from="1667427739590" duration="21000" />
+      <workItem from="1667462728736" duration="958000" />
+      <workItem from="1667465108314" duration="4911000" />
+      <workItem from="1667478807229" duration="3000" />
+      <workItem from="1667481071874" duration="1732000" />
+      <workItem from="1667484203410" duration="2995000" />
+      <workItem from="1667495939636" duration="9000" />
+      <workItem from="1667549485352" duration="18000" />
     </task>
     <servers />
   </component>

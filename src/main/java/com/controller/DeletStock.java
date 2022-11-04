@@ -26,6 +26,7 @@ public class DeletStock extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         int id = Integer.parseInt(request.getParameter("id"));
+        System.out.println(id);
         admincDao.deleteAdminc(id);
         response.sendRedirect("Adminc.jsp");
     }

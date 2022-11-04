@@ -59,9 +59,8 @@ public class UserDao {
             Session session = SessionUtil.getCurrentSession();
             session.getTransaction();
             session.getTransaction().begin();
-            responsable = (Responsable) session.createQuery("SELECT U FROM Admin U WHERE U.email = :email ").setParameter("email", email).uniqueResult();
+            responsable = (Responsable) session.createQuery("SELECT U FROM Responsable U WHERE U.email = :email ").setParameter("email", email).uniqueResult();
             System.out.println(responsable.getEmail());
-            System.out.println(responsable.getPassword());
             if (responsable != null && responsable.getPassword().equals(password)) {
                 return true;
             }

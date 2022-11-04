@@ -109,7 +109,6 @@
       <th>promotion</th>
       <th>point-fidilités</th>
       <th>Application</th>
-      <th>Action</th>
     </tr>
     </thead>
     <tbody>
@@ -124,16 +123,9 @@
     <tr>
       <td><%=stock.getCategorie()%></td>
       <td><%=stock.getProduit()%></td>
-      <td><%=promotion.getPromo()%></td>
-      <td><%=promotion.getPoints()%>DH</td>
+      <td><%=promotion.getPromo()%>%</td>
+      <td><%=promotion.getPoints()%>points</td>
       <td><%=promotion.getDisponible()%></td>
-      <td>
-        <button type="button" class="btn" data-toggle="modal" data-target="#delexampleModal<%=promotion.getIdPromo()%>">
-          <img src="delete.png">
-        </button>
-        <button type="button" class="btn" data-toggle="modal" data-target="#upexampleModal<%=promotion.getIdPromo()%>">
-          <img src="editing.png">
-        </button>
   </tbody>
     <%
       }

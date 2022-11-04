@@ -41,11 +41,11 @@ public class PromoServlet extends HttpServlet {
         AdmincDao admincDao=new AdmincDao();
         System.out.println(promoDao.insertid(produit));
        Stock stock=admincDao.getStokes(promoDao.insertid(produit));
-        String disponible="non applique";
+        String disponible="Non";
         Promotion promotion=new Promotion(promo,point,stock,disponible);
         promotion.setPromo(promo);
         promotion.setPoints(point);
-//        promotion.setStock(stock);
+        promotion.setStock(stock);
         promotion.setDisponible(disponible);
         promoDao.savepromo(promotion);
        RequestDispatcher dispatcher = request.getRequestDispatcher("promotion.jsp");
